@@ -1,0 +1,119 @@
+
+.tukhor{
+    min-height: 100vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.60),
+        rgba(0, 0, 0, 0.60)
+    ),
+    url("tuk.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tukhor1{
+    font-family: "Cormorant Garamond", serif;
+}
+.ok{
+
+    color:#D4AF37;
+}
+.about{
+    background:#f8f7f3;
+}
+
+
+.about h2,
+.about h3{
+    font-family:"Cormorant Garamond", serif;
+}
+
+
+.about-img img{
+    height:520px;
+    width:100%;
+    object-fit:cover;
+}
+.about-img img{
+    border: 2px solid black;
+}
+
+.card img{
+    height:300px;
+    object-fit:cover;
+}
+
+
+.card{
+    transition:.3s;
+}
+
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+h2{
+    font-family: "Cormorant Garamond", serif;
+}
+
+.p-4{
+    transition: .3s;
+}
+
+.p-4:hover{
+    transform: translateY(-8px);
+}
+
+section h2{
+    font-family: "Cormorant Garamond", serif;
+}
+
+section img{
+    height:650px;
+    width:100%;
+    object-fit:cover;
+}
+
+.gallery-section{
+    background:#f8f7f3;
+}
+
+.gallery-title{
+    font-family:"Cormorant Garamond", serif;
+}
+
+.gallery-img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+    transition:.4s;
+    cursor:pointer;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+}
+
+.footer-section{
+    background:#111111;
+}
+
+.footer-logo{
+    color:#ffffff;
+    font-family:"Cormorant Garamond", serif;
+}
+
+.footer-section p{
+    color:#bdbdbd;
+}
+
+.footer-section a{
+    color:#bdbdbd;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-section a:hover{
+    color:#D4AF37;
+}
